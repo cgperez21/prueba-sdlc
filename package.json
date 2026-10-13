@@ -8,6 +8,7 @@
     "test:coverage": "jest --coverage",
     "test:bdd": "cucumber-js",
     "test:report": "node scripts/ejecutar-pruebas.js",
+    "test:unit": "jest --coverage",
     "audit": "npm audit --audit-level=moderate"
   },
   "license": "MIT",
