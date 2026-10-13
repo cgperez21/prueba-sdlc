@@ -1,0 +1,19 @@
+{
+  "name": "integration-solutions-qa",
+  "version": "1.0.0",
+  "description": "Proyecto de calidad de software para Integration Solutions: pruebas unitarias, cobertura y analisis de seguridad.",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:bdd": "cucumber-js",
+    "test:report": "node scripts/ejecutar-pruebas.js",
+    "audit": "npm audit --audit-level=moderate"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "jest": "^29.7.0",
+    "nyc": "^18.0.0"
+  }
+}

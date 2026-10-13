@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+.scannerwork/
+*.log
+.env
+.DS_Store
+test-results.json
